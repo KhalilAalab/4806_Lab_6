@@ -1,4 +1,4 @@
-README_INSTRUCTIONS.md
+HTTP_INSTRUCTIONS.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
