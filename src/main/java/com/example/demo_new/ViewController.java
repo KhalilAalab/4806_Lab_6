@@ -20,4 +20,9 @@ public class ViewController {
         model.addAttribute("AddressBooks", AddressBooks);
         return "viewAllAddressBooks";
     }
+
+    @GetMapping("/")
+    public String links(Model model){
+        return "links";
+    }
 }
