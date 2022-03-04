@@ -15,11 +15,6 @@ public class Controller {
     @Autowired
     private AddressBookRepository addressBookRepository;
 
-    @GetMapping("/")
-    public String index() {
-        return "Welcome to AddressBook Application!";
-    }
-
     @PostMapping("/NewAddressBook")
     public String newAddressBook() {
         AddressBook addressBook = new AddressBook();
