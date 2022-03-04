@@ -25,4 +25,15 @@ public class ViewController {
     public String links(Model model){
         return "links";
     }
+
+    @GetMapping("/addBuddyInfoView")
+    public String addBuddyView(Model model){
+        return "addBuddyInfoView";
+    }
+
+    @GetMapping("/addAddressBookView")
+    public String addAddressBookView(Model model){
+        return "addBuddyInfoView";
+    }
+
 }
