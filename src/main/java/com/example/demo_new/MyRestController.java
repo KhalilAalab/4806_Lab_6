@@ -1,16 +1,10 @@
 package com.example.demo_new;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.List;
-
 @RestController
-public class Controller {
+public class MyRestController {
 
     @Autowired
     private AddressBookRepository addressBookRepository;

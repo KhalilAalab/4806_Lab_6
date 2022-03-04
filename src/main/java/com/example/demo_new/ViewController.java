@@ -33,7 +33,7 @@ public class ViewController {
 
     @GetMapping("/addAddressBookView")
     public String addAddressBookView(Model model){
-        return "addBuddyInfoView";
+        return "addAddressBookView";
     }
 
 }
