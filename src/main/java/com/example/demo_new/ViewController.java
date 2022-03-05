@@ -36,4 +36,9 @@ public class ViewController {
         return "addAddressBookView";
     }
 
+    @GetMapping("/deleteBuddyInfoView")
+    public String deleteBuddyInfoView(Model model){
+        return "deleteBuddyInfoView";
+    }
+
 }
